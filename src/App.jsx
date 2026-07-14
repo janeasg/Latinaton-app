@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Cadastro from "./pages/Cadastro";
 import Painel from "./pages/Painel";
+import Hackathons from "./pages/Hackathons";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/painel" element={<Painel />} />
+        <Route path="/hackathons" element={<Hackathons />} />
       </Routes>
     </BrowserRouter>
   );

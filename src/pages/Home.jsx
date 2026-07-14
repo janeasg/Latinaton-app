@@ -13,6 +13,12 @@ function Home() {
 
       <main>
         <h1>Hackathon</h1>
+
+        <p>Bem-vindo à plataforma.</p>
+
+        <Link to="/hackathons">
+          <button>Ver Hackathons</button>
+        </Link>
       </main>
 
       <footer>
